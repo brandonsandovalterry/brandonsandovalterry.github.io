@@ -7,11 +7,195 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>@brandonsandovalterry | Brandon Sandoval Terry</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+    <style>
+        html, body {
+            font-family: 'Raleway', sans-serif;
+            font-weight: bolder;
+            height: 100vh;
+        }
+
+        .color-primary {
+            color: #DA4C2E;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            padding-left: 1em;
+            text-indent: -.7em;
+        }
+
+        li::before {
+            content: "• ";
+            color: #DA4C2E; /* or whatever color you prefer */
+        }
+
+        .avatar img {
+            border-radius: 50%;
+            max-width: 150px;
+        }
+
+        a {
+            text-decoration: none;
+            transition: color 0.8s linear 0.2s;
+        }
+
+        a:hover {
+            color: #000; /* or whatever color you prefer */
+        }
+
+        .text-description {
+            font-size: 25px;
+            font-weight: bolder;
+        }
+    </style>
 </head>
-<body>
-Hola
+<body class="bg-light">
+<section class="container-fluid p-4" style="max-height: 100%; width: 100%;">
+    <nav class="fixed-top bg-white p-2">
+        <h2 class="font-weight-bold"><span class="color-primary"><</span>brandonsandovalterry<span
+                class="color-primary">></span></h2>
+    </nav>
+    <div class="row mt-5">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="avatar text-center">
+                <img src="assets/images/avatar.jpg" alt="Brandon Sandoval Terry">
+            </div>
+            <h3 class="text-center mt-3 font-weight-bold color-primary">Brandon Sandoval Terry</h3>
+
+            <p class="text-description">Joven estudiante de 21 años, estudio la carrera de computación e informática.</p>
+
+            <br>
+
+            <p class="text-description">Comencé en el mundo de la programación desde los 17 años,
+                tuve la suerte de hacer mis primeras prácticas
+                en la
+                <a href="http://www.munilosolivos.gob.pe/muni1/" class="color-primary" target="_blank">Municipalidad de
+                    los Olivos</a>.</p>
+
+            <p class="text-description">Actualmente trabajo con el <span class="color-primary">Ingeniero Carlos Zárate Dominguez</span>
+                en el sistema notarial <span class="color-primary">#LEGASYS</span>.</p>
+
+            <p class="text-description">Me apaciona mucho esta profesión que descidí elegir.</p>
+
+            <br>
+
+            <p class="text-description">
+                Mi meta actual es terminar mi carrera y continuar estudiando <span class="color-primary">Ingeniería de Software</span>.
+            </p>
+
+            <br>
+
+
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="row mb-4">
+                <div class="col-sm-12 col-md-6 col-md-6 mb-3">
+                    <h4 class="color-primary"><i class="fas fa-wrench">Conocimientos</i></h4>
+                    <ul>
+                        <li>PHP</li>
+                        <li>LARAVEL</li>
+                        <li>MYSQL <i class="color-primary">/</i> SQL <i class="color-primary">/</i> POSTGRESQL</li>
+                        <li>CSS <i class="color-primary">/</i> CSS3</li>
+                        <li>BOOTSTRAP</li>
+                        <li>BULMA CSS</li>
+                        <li>JAVASCRIPT</li>
+                        <li>JQUERY</li>
+                        <li>VUE.JS</li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6 col-md-6 mb-3">
+                    <h4 class="color-primary"><i class="fas fa-graduation-cap">Estudios Superiores</i></h4>
+                    <ul>
+                        <li>Cibertec 2016 - Hoy: Estudio la carrera de computación informática.</li>
+                        <li>Senati 2013 - 2016: Estudié diseño de software.</li>
+                        <li>Conocimientos básicos de ingles.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-sm-12 col-md-6 col-md-6 mb-3">
+                    <h4 class="color-primary"><i class="fas fa-child">Próximos Cursos</i></h4>
+                    <ul>
+                        <li class="">ANDROID</li>
+                        <li>IOS</li>
+                        <li>WEB SOCKETS</li>
+                        <li>JSP</li>
+                        <li>REACT</li>
+                        <li>GO</li>
+                        <li>PYTHON</li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6 col-md-6 mb-3">
+                    <h4 class="color-primary"><i class="far fa-smile">Próximos Estudios</i></h4>
+                    <ul>
+                        <li>UPC: Mi meta es terminar la carrera de Ing. de Software en la universidad.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-sm-12 col-md-6 col-md-6 mb-3">
+                    <h4 class="color-primary"><i class="fab fa-safari">Algunos proyectos </i></h4>
+                    <ul>
+                        <li>
+                            <a href="http://lozcor.com" class="color-primary" target="_blank">
+                                Perú Servicios
+                            </a>
+                            <span class="color-primary">( </span>Laravel <span class="color-primary">) </span>
+                        </li>
+                        <li>
+                            <a href="http://enlinea.lega-sys.com/site/" class="color-primary" target="_blank">
+                                NotariaSyS
+                            </a>
+                            <span class="color-primary">( </span> Php <span class="color-primary">/</span> Css3 <span
+                                class="color-primary">/</span> Bootstrap <span class="color-primary">) </span>
+                        </li>
+                        <li>
+                            <a href="http://190.117.123.176/consulta_web/" class="color-primary" target="_blank">Consulta
+                                notarial web
+                            </a>
+                            <span class="color-primary">( </span> Php <span class="color-primary">/</span> Css3 <span
+                                class="color-primary">/</span> Bootstrap <span class="color-primary">) </span>
+                        </li>
+                        <li>
+                            <a href="http://arias.lega-sys.com/notaria-arias-schreiber/" class="color-primary"
+                               target="_blank">
+                                Landing Page notarial
+                            </a>
+                            <span class="color-primary">( </span> Html5<span class="color-primary">/</span> Css3 <span
+                                class="color-primary">/</span> Bootstrap <span class="color-primary">) </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="fixed-bottom p-4 bg-white">
+        <a href="https://github.com/brandonsandovalterry" class="color-primary m-5" target="_blank">
+            <i class="fab fa-github fa-lg"></i>
+        </a>
+
+        <a title="brandonsandovalterry@outlook.com" class="color-primary m-5"
+           href="mailto:brandonsandovalterry@outlook.com" target="_blank">
+            <i class="far fa-envelope fa-lg"></i>
+        </a>
+
+        <a href="https://api.whatsapp.com/send?phone=51945672976" target="_blank" class="color-primary m-5">
+            <i class="fab fa-whatsapp fa-lg"></i>
+        </a>
+    </div>
+</section>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
